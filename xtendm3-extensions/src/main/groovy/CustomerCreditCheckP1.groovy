@@ -7,6 +7,7 @@ class CustomerCreditCheckP1 extends ExtendM3Trigger {
     this.interactive = interactive
   }
 
+  //Adding comment to test push and commit.
   void main() {
     session.parameters.put("creditLimit", interactive.display.fields.get("WRCRLM"))
   }
