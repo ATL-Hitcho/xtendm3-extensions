@@ -81,7 +81,7 @@
              <configuration>
   <sources>
     <source>
-      <directory>${project.basedir}/src/main/java</directory>
+      <directory>${project.basedir}/src/main</directory>
       <includes>
         <include>**/*.groovy</include>
       </includes>
@@ -89,7 +89,7 @@
   </sources>
   <testSources>
     <testSource>
-      <directory>${project.basedir}/src/test/java</directory>
+      <directory>${project.basedir}/src/test</directory>
       <includes>
         <include>**/*.groovy</include>
       </includes>
